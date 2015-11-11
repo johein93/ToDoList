@@ -98,8 +98,8 @@ body{
 #addnew .field button{
 	height: 40px;
 }
-#todo,#finished{
-	margin-top: 40px;
+#addnew,#todo{
+	margin-bottom: 40px;
 }
 #todo .field .text{
 	float: left;
@@ -111,7 +111,8 @@ body{
 	text-overflow: ellipsis;
 }
 
-#todo .field input[type=text]{
+#todo .field input[type=text],
+#finished .field input[type=text]{
 	width: 70%;
 	margin-right: 20px;
 	display: none;
@@ -120,10 +121,12 @@ body{
 	margin-left: 10px;
 }
 
-#todo .field.editmode .text,#todo .field.editmode label{
+#todo .field.editmode .text,#todo .field.editmode label,
+#finished .field.editmode .text,#finished .field.editmode label{
 	display: none;
 }
-#todo .field.editmode input[type=text]{
+#todo .field.editmode input[type=text],
+#finished .field.editmode input[type=text]{
 	display: block;
 }
 
