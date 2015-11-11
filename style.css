@@ -129,10 +129,15 @@ body{
 
 #finished .field .text{
 	line-height: 40px;
-	width: 90%;
+	width: 61%;
+	margin-right: 20px;
 	float: left;
 	overflow: hidden;
 	text-overflow: ellipsis;
+    text-decoration: line-through;
+}
+#finished .field button~button{
+	margin-left: 10px;
 }
 
 
